@@ -36,7 +36,7 @@ defmodule Nimbus.HTML do
   @doc """
   Dispatcher for require helper methods.
 
-  Available: `:layout`.
+  Available: `:layout`, `:all` .
   """
   defmacro __using__(which) when is_atom(which) do
     apply(__MODULE__, which, [])
