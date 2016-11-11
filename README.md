@@ -9,7 +9,7 @@ Additional helpers for [Phoenix](https://github.com/phoenixframework/phoenix)
 
   ```elixir
   def deps do
-    [{:nimbus, "~> 0.1.0"}]
+    [{:nimbus, "~> 0.2.0"}]
   end
   ```
 
@@ -20,11 +20,11 @@ Additional helpers for [Phoenix](https://github.com/phoenixframework/phoenix)
     [applications: [:nimbus]]
   end
   ```
-  
-## Usage
 
-  Todo: modules
- 
+## Documentation
+
+  [Read hexdocs.pm](https://hexdocs.pm/nimbus/api-reference.html)
+
 ## License
 
 The gem is available as open source under the terms of the [MIT

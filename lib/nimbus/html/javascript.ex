@@ -1,7 +1,9 @@
 defmodule Nimbus.HTML.Javascript do
   use Phoenix.HTML
 
-  @moduledoc false
+  @moduledoc """
+  Module adds javascript helper
+  """
 
   @doc """
   Render a script tag. By default it accepts script src and options.
@@ -27,6 +29,6 @@ defmodule Nimbus.HTML.Javascript do
 
   @doc false
   def javascript(src, opts) do
-    tag(:script, [type: "text/javascript", src: src] ++ opts)
+    content_tag(:script, nil, [type: "text/javascript", src: src] ++ opts)
   end
 end

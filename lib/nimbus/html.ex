@@ -24,6 +24,19 @@ defmodule Nimbus.HTML do
   end
 
   @doc """
+  Imports helpers for using in common templates.
+
+  It imports:
+
+    * `Nimbus.HTML.Image` - Image helper;
+  """
+  def view do
+    quote do
+      import Nimbus.HTML.Image
+    end
+  end
+
+  @doc """
   Imports all available modules.
   """
   def all do
@@ -36,7 +49,7 @@ defmodule Nimbus.HTML do
   @doc """
   Dispatcher for require helper methods.
 
-  Available: `:layout`, `:all` .
+  Available: `:layout`, `:view`, `:all` .
   """
   defmacro __using__(which) when is_atom(which) do
     apply(__MODULE__, which, [])

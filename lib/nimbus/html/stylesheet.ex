@@ -1,7 +1,9 @@
 defmodule Nimbus.HTML.Stylesheet do
   use Phoenix.HTML
 
-  @moduledoc false
+  @moduledoc """
+  Module adds stylesheet helper
+  """
 
   @doc """
   Render a stylesheet link tag. By default it accepts styles href and options.
