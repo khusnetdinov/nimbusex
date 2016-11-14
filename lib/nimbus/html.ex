@@ -33,6 +33,7 @@ defmodule Nimbus.HTML do
   def view do
     quote do
       import Nimbus.HTML.Image
+      import Nimbus.HTML.Url
     end
   end
 
