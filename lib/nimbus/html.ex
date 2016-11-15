@@ -29,6 +29,8 @@ defmodule Nimbus.HTML do
   It imports:
 
     * `Nimbus.HTML.Image` - Image helper;
+
+    * `Nimbus.HTML.Url` - Url helpers
   """
   def view do
     quote do
