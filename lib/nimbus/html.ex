@@ -5,6 +5,7 @@ defmodule Nimbus.HTML do
   It depends on:
 
     * `Phoenix.HTML` - Phoenix helpers for working with HTML and templates;
+
   """
 
   @doc """
@@ -15,6 +16,7 @@ defmodule Nimbus.HTML do
     *  `Nimbus.HTML.Javascript` - Javascript assets helper;
 
     *  `Nimbus.HTML.Stylesteet` - Stylesheet assets helper;
+
   """
   def layout do
     quote do
@@ -28,9 +30,10 @@ defmodule Nimbus.HTML do
 
   It imports:
 
-    * `Nimbus.HTML.Image` - Image helper;
+    *  `Nimbus.HTML.Image` - Image helper;
 
-    * `Nimbus.HTML.Url` - Url helpers
+    *  `Nimbus.HTML.Url` - Url helpers
+
   """
   def view do
     quote do
@@ -46,6 +49,7 @@ defmodule Nimbus.HTML do
     quote do
       import Nimbus.HTML.Javascript
       import Nimbus.HTML.Stylesheet
+      import Nimbus.HTML.Url
     end
   end
 

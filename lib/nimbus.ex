@@ -4,6 +4,9 @@ defmodule Nimbus do
 
   It includes:
 
-    * `Nimbus.HTML` - HTML, templates helpers;
+    *  `Nimbus.HTML` - HTML, templates helpers;
+
+    *  `Nimbus.Locales` - Helpers for changing locales
+
   """
 end
