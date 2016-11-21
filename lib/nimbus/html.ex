@@ -39,6 +39,7 @@ defmodule Nimbus.HTML do
     quote do
       import Nimbus.HTML.Image
       import Nimbus.HTML.Url
+      import Nimbus.HTML.FaIcons
     end
   end
 
@@ -50,6 +51,7 @@ defmodule Nimbus.HTML do
       import Nimbus.HTML.Javascript
       import Nimbus.HTML.Stylesheet
       import Nimbus.HTML.Url
+      import Nimbus.HTML.FaIcons
     end
   end
 
