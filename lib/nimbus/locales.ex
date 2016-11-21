@@ -14,7 +14,7 @@ defmodule Nimbus.Locales do
 
   Example:
 
-    iex> locales(@conn, [:us, ru])
+    iex> locales(@conn, [:us, :ru])
 
     <a href="/?locale=us">
       <span class="flag-icon-us flag-icon-background flag-icon"></span>
@@ -28,11 +28,22 @@ defmodule Nimbus.Locales do
   """
 
   @doc false
-  def locales(conn, opts) do
-    for locale <- opts do
+  def locales(conn, list, opts \\ []) do
+    Enum.map(list, fn(locale) ->
       link(to: current_path(conn, locale: locale)) do
-        raw "<span class='flag-icon-#{locale} flag-icon-background flag-icon'></span>"
+        content_tag :span, "", class: "flag-icon-#{locale} flag-icon-background flag-icon"
       end
+      |> wrap(opts)
+      |> raw
+    end)
+  end
+
+  defp wrap(locale, opts) do
+    case Keyword.fetch(opts, :wrapper) do
+      {:ok, wrapper} ->
+        content_tag(wrapper, locale)
+      :error ->
+        locale
     end
   end
 end
