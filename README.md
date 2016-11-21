@@ -21,11 +21,8 @@ Add desired collection of helpers to your `web/web.ex`, e.g. collection of `:vie
   def view do
     quote do
       use Phoenix.View, root: "web/templates"
-
-      # some imports here...
       use Nimbus.HTML, :view
-
-      # some imports here...
+      use Nimbus.HTML, :other_html_helpers_import
     end
   end
 ```
