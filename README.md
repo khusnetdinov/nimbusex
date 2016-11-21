@@ -32,6 +32,10 @@ To get full list of possible collections, check out [docs](https://hexdocs.pm/ni
 ## Documentation
 
   [Read hexdocs.pm](https://hexdocs.pm/nimbus/api-reference.html)
+  
+## Contribution
+
+Clone repo, implement additional helpers, write tests and PR welcome!
 
 ## License
 
