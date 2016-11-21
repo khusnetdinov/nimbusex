@@ -34,6 +34,8 @@ defmodule Nimbus.HTML do
 
     *  `Nimbus.HTML.Url` - Url helpers
 
+    *  `Nimbus.HTML.FaIcons` - Helpers for Font-Awesome Icons
+
   """
   def view do
     quote do
