@@ -1,4 +1,4 @@
-# Nimbus [WIP]
+# Nimbus
 
 ![img](http://res.cloudinary.com/dtoqqxqjv/image/upload/v1478696478/dubious_dolls_9_v5y9dz.jpg)
 
