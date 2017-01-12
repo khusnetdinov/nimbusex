@@ -9,7 +9,7 @@ Add `nimbus` to your list of dependencies in `mix.exs`:
 
   ```elixir
   def deps do
-    [{:nimbus, "~> 0.3.0"}]
+    [{:nimbus, "~> 0.4.0"}]
   end
   ```
 
