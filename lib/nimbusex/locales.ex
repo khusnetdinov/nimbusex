@@ -1,7 +1,7 @@
-defmodule Nimbus.Locales do
+defmodule Nimbusex.Locales do
   use Phoenix.HTML
 
-  import Nimbus.HTML.Url
+  import Nimbusex.HTML.Url
 
   @moduledoc """
   Module adds helpers for swithing locales in templates.

@@ -1,9 +1,9 @@
-defmodule Nimbus.HTML.FaIconsTest do
+defmodule Nimbusex.HTML.FaIconsTest do
   use ExUnit.Case, async: true
 
-  import Nimbus.HTML.FaIcons
+  import Nimbusex.HTML.FaIcons
 
-  describe "Nimbus.HTML.FaIconTest" do
+  describe "Nimbusex.HTML.FaIconTest" do
     test "should render i tag with fa icon" do
       given = fa_icon('car')
       expected = {:safe, [60, "i", " class=\"fa fa-car\"", 62, "", 60, 47, "i", 62]}

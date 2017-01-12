@@ -1,6 +1,6 @@
-defmodule Nimbus.HTML do
+defmodule Nimbusex.HTML do
   @moduledoc """
-  Nimbus.HTML provide additional helpers methods for using in templates.
+  Nimbusex.HTML provide additional helpers methods for using in templates.
 
   It depends on:
 
@@ -13,15 +13,15 @@ defmodule Nimbus.HTML do
 
   It imports:
 
-    *  `Nimbus.HTML.Javascript` - Javascript assets helper;
+    *  `Nimbusex.HTML.Javascript` - Javascript assets helper;
 
-    *  `Nimbus.HTML.Stylesteet` - Stylesheet assets helper;
+    *  `Nimbusex.HTML.Stylesteet` - Stylesheet assets helper;
 
   """
   def layout do
     quote do
-      import Nimbus.HTML.Javascript
-      import Nimbus.HTML.Stylesheet
+      import Nimbusex.HTML.Javascript
+      import Nimbusex.HTML.Stylesheet
     end
   end
 
@@ -30,18 +30,18 @@ defmodule Nimbus.HTML do
 
   It imports:
 
-    *  `Nimbus.HTML.Image` - Image helper;
+    *  `Nimbusex.HTML.Image` - Image helper;
 
-    *  `Nimbus.HTML.Url` - Url helpers
+    *  `Nimbusex.HTML.Url` - Url helpers
 
-    *  `Nimbus.HTML.FaIcons` - Helpers for Font-Awesome Icons
+    *  `Nimbusex.HTML.FaIcons` - Helpers for Font-Awesome Icons
 
   """
   def view do
     quote do
-      import Nimbus.HTML.Image
-      import Nimbus.HTML.Url
-      import Nimbus.HTML.FaIcons
+      import Nimbusex.HTML.Image
+      import Nimbusex.HTML.Url
+      import Nimbusex.HTML.FaIcons
     end
   end
 
@@ -50,11 +50,11 @@ defmodule Nimbus.HTML do
   """
   def all do
     quote do
-      import Nimbus.HTML.Javascript
-      import Nimbus.HTML.Stylesheet
-      import Nimbus.HTML.Image
-      import Nimbus.HTML.Url
-      import Nimbus.HTML.FaIcons
+      import Nimbusex.HTML.Javascript
+      import Nimbusex.HTML.Stylesheet
+      import Nimbusex.HTML.Image
+      import Nimbusex.HTML.Url
+      import Nimbusex.HTML.FaIcons
     end
   end
 

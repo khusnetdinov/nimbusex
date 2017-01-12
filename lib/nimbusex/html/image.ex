@@ -1,4 +1,4 @@
-defmodule Nimbus.HTML.Image do
+defmodule Nimbusex.HTML.Image do
   use Phoenix.HTML
 
   @moduledoc """

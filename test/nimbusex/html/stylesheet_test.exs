@@ -1,9 +1,9 @@
-defmodule Nimbus.HTML.StylesheetTest do
+defmodule Nimbusex.HTML.StylesheetTest do
   use ExUnit.Case, async: true
 
-  import Nimbus.HTML.Stylesheet
+  import Nimbusex.HTML.Stylesheet
 
-  describe "Nimbus.HTML.Stylessheet" do
+  describe "Nimbusex.HTML.Stylessheet" do
     test "should render stylesheet tag" do
       given = stylesheet("app.css")
       expected = {:safe, "<link href=\"app.css\" media=\"screen\" media=\"screen\" rel=\"stylesheet\">"}

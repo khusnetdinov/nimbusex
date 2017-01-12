@@ -1,8 +1,8 @@
-defmodule Nimbus.Mixfile do
+defmodule Nimbusex.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :nimbus,
+    [app: :nimbusex,
      version: "0.3.0",
      elixir: "~> 1.3",
      build_embedded: Mix.env == :prod,
@@ -19,15 +19,15 @@ defmodule Nimbus.Mixfile do
 
   defp description do
     """
-    Nimbus provide more helpers for Phoenix framework.
+    Nimbusex provide more helpers for Phoenix framework.
     """
   end
 
   defp package do
-    [name: :nimbus,
+    [name: :nimbusex,
      maintainers: ["Marat Khusnetdinov"],
      licenses: ["MIT"],
-     links: %{"Github" => "https://github.com/khusnetdinov/nimbus"},
+     links: %{"Github" => "https://github.com/khusnetdinov/nimbusex"},
      files: ["lib", "test", "mix.exs", "README*", "LICENSE*"]]
   end
 

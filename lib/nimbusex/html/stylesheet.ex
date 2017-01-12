@@ -1,4 +1,4 @@
-defmodule Nimbus.HTML.Stylesheet do
+defmodule Nimbusex.HTML.Stylesheet do
   use Phoenix.HTML
 
   @moduledoc """

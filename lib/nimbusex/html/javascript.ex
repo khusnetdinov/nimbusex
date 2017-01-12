@@ -1,4 +1,4 @@
-defmodule Nimbus.HTML.Javascript do
+defmodule Nimbusex.HTML.Javascript do
   use Phoenix.HTML
 
   @moduledoc """

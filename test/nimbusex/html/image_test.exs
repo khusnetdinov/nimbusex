@@ -1,9 +1,9 @@
-defmodule Nimbus.HTML.ImageTest do
+defmodule Nimbusex.HTML.ImageTest do
   use ExUnit.Case, async: true
 
-  import Nimbus.HTML.Image
+  import Nimbusex.HTML.Image
 
-  describe "Nimbus.HTML.Image" do
+  describe "Nimbusex.HTML.Image" do
     test "should render image tag" do
       given = image("image.jpg")
       expected = {:safe, "<img src=\"image.jpg\">"}

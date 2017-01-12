@@ -1,9 +1,9 @@
-defmodule Nimbus.HTML.JavascriptTest do
+defmodule Nimbusex.HTML.JavascriptTest do
   use ExUnit.Case, async: true
 
-  import Nimbus.HTML.Javascript
+  import Nimbusex.HTML.Javascript
 
-  describe "Nimbus.HTML.JavaScript" do
+  describe "Nimbusex.HTML.JavaScript" do
     test "should render javascript tag" do
       given = javascript("app.js")
       expected = {:safe, [60, "script", " src=\"app.js\" type=\"text/javascript\"", 62, "", 60, 47, "script", 62]}

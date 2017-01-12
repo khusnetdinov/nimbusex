@@ -1,4 +1,4 @@
-defmodule Nimbus.HTML.FaIcons do
+defmodule Nimbusex.HTML.FaIcons do
   import Phoenix.HTML.Tag
 
   @moduledoc """

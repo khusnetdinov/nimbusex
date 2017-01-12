@@ -1,9 +1,9 @@
-defmodule Nimbus.LocalesTest do
+defmodule Nimbusex.LocalesTest do
   use ExUnit.Case, async: true
 
-  import Nimbus.Locales
+  import Nimbusex.Locales
 
-  describe "Nimbus.Locales" do
+  describe "Nimbusex.Locales" do
     test "should render list of links to change locales" do
       conn = %{request_path: ""}
 

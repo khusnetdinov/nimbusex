@@ -1,4 +1,4 @@
-defmodule Nimbus.HTML.Url do
+defmodule Nimbusex.HTML.Url do
   @moduledoc """
   Module adds url helper
   """

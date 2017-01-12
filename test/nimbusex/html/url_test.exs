@@ -1,9 +1,9 @@
-defmodule Nimbus.HTML.UrlTest do
+defmodule Nimbusex.HTML.UrlTest do
   use ExUnit.Case, async: true
 
-  import Nimbus.HTML.Url
+  import Nimbusex.HTML.Url
 
-  describe "Nimbus.HTML.Url" do
+  describe "Nimbusex.HTML.Url" do
     test "should render current_path" do
       conn = %{:request_path => "example.com"}
 
