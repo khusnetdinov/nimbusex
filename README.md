@@ -1,6 +1,6 @@
 # Nimbusex
 
-![img](http://res.cloudinary.com/dtoqqxqjv/image/upload/v1478696478/dubious_dolls_9_v5y9dz.jpg)
+![img](http://res.cloudinary.com/dtoqqxqjv/image/upload/v1489144586/github/dubious_dolls_9_v5y9dz.jpg)
 
 Additional helpers for [Phoenix](https://github.com/phoenixframework/phoenix) what were not included in Phoenix by different reasons.
 
